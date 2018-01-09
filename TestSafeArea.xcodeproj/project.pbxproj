@@ -12,6 +12,7 @@
 		96B0CA7F2004513E00E03473 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B0CA7D2004513E00E03473 /* Main.storyboard */; };
 		96B0CA812004513E00E03473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B0CA802004513E00E03473 /* Assets.xcassets */; };
 		96B0CA842004513E00E03473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B0CA822004513E00E03473 /* LaunchScreen.storyboard */; };
+		96B0CA8C2004526000E03473 /* StandardBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B0CA8B2004526000E03473 /* StandardBar.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		96B0CA802004513E00E03473 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96B0CA832004513E00E03473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96B0CA852004513E00E03473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96B0CA8B2004526000E03473 /* StandardBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StandardBar.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				96B0CA802004513E00E03473 /* Assets.xcassets */,
 				96B0CA822004513E00E03473 /* LaunchScreen.storyboard */,
 				96B0CA852004513E00E03473 /* Info.plist */,
+				96B0CA8B2004526000E03473 /* StandardBar.storyboard */,
 			);
 			path = TestSafeArea;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 				96B0CA842004513E00E03473 /* LaunchScreen.storyboard in Resources */,
 				96B0CA812004513E00E03473 /* Assets.xcassets in Resources */,
 				96B0CA7F2004513E00E03473 /* Main.storyboard in Resources */,
+				96B0CA8C2004526000E03473 /* StandardBar.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
