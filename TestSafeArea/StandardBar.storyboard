@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,6 +21,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q3O-h1-Xbl">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="Eay-jC-kSj"/>
+                                </items>
+                            </navigationBar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BTp-GY-N11">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <items>
@@ -32,7 +37,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="P6n-bF-1hG" firstAttribute="top" secondItem="BTp-GY-N11" secondAttribute="bottom" id="CAo-LA-5eH"/>
+                            <constraint firstItem="q3O-h1-Xbl" firstAttribute="top" secondItem="2jX-zS-Yo9" secondAttribute="bottom" id="OPP-nz-5Ox"/>
+                            <constraint firstItem="q3O-h1-Xbl" firstAttribute="leading" secondItem="t41-uS-6CQ" secondAttribute="leading" id="Wqm-RS-oEh"/>
                             <constraint firstItem="BTp-GY-N11" firstAttribute="leading" secondItem="t41-uS-6CQ" secondAttribute="leading" id="pd8-Ql-5iV"/>
+                            <constraint firstAttribute="trailing" secondItem="q3O-h1-Xbl" secondAttribute="trailing" id="qrf-Dl-OnF"/>
                             <constraint firstItem="BTp-GY-N11" firstAttribute="trailing" secondItem="t41-uS-6CQ" secondAttribute="trailing" id="vRa-TL-Cdd"/>
                         </constraints>
                     </view>
