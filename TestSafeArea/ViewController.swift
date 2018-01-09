@@ -10,16 +10,32 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var barHeightConstraint: NSLayoutConstraint!
+
+    @available(iOS 11.0, *)
+    override func viewSafeAreaInsetsDidChange() {
+        log()
+        barHeightConstraint.constant = view.safeAreaInsets.bottom + 44
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        log()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        log()
     }
-
-
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        log()
+    }
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        log()
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        log()
+    }
 }
 

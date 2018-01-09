@@ -13,6 +13,7 @@
 		96B0CA812004513E00E03473 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B0CA802004513E00E03473 /* Assets.xcassets */; };
 		96B0CA842004513E00E03473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B0CA822004513E00E03473 /* LaunchScreen.storyboard */; };
 		96B0CA8C2004526000E03473 /* StandardBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B0CA8B2004526000E03473 /* StandardBar.storyboard */; };
+		96B0CA8E200453E500E03473 /* UIViewControler+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0CA8D200453E500E03473 /* UIViewControler+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		96B0CA832004513E00E03473 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96B0CA852004513E00E03473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96B0CA8B2004526000E03473 /* StandardBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = StandardBar.storyboard; sourceTree = "<group>"; };
+		96B0CA8D200453E500E03473 /* UIViewControler+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewControler+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				96B0CA822004513E00E03473 /* LaunchScreen.storyboard */,
 				96B0CA852004513E00E03473 /* Info.plist */,
 				96B0CA8B2004526000E03473 /* StandardBar.storyboard */,
+				96B0CA8D200453E500E03473 /* UIViewControler+Extensions.swift */,
 			);
 			path = TestSafeArea;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			files = (
 				96B0CA7C2004513E00E03473 /* ViewController.swift in Sources */,
 				96B0CA7A2004513E00E03473 /* AppDelegate.swift in Sources */,
+				96B0CA8E200453E500E03473 /* UIViewControler+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
