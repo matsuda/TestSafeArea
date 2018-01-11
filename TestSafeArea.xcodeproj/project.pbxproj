@@ -21,6 +21,7 @@
 		96B0CAA0200455DB00E03473 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96B0CA9E200455DB00E03473 /* LaunchScreen.storyboard */; };
 		96B0CAA62004569000E03473 /* SafeLayoutBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0CAA52004569000E03473 /* SafeLayoutBar.swift */; };
 		96B0CAA820045AF000E03473 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0CAA720045AF000E03473 /* Constants.swift */; };
+		96CE4CE32006FE1D0080C798 /* SafeAutoLayoutBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE4CE22006FE1D0080C798 /* SafeAutoLayoutBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		96B0CAA1200455DB00E03473 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96B0CAA52004569000E03473 /* SafeLayoutBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeLayoutBar.swift; sourceTree = "<group>"; };
 		96B0CAA720045AF000E03473 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		96CE4CE22006FE1D0080C798 /* SafeAutoLayoutBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAutoLayoutBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				96B0CAA1200455DB00E03473 /* Info.plist */,
 				96B0CAA52004569000E03473 /* SafeLayoutBar.swift */,
 				96B0CAA720045AF000E03473 /* Constants.swift */,
+				96CE4CE22006FE1D0080C798 /* SafeAutoLayoutBar.swift */,
 			);
 			path = SafeLayoutBar;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96B0CAA62004569000E03473 /* SafeLayoutBar.swift in Sources */,
+				96CE4CE32006FE1D0080C798 /* SafeAutoLayoutBar.swift in Sources */,
 				96B0CA98200455DB00E03473 /* ViewController.swift in Sources */,
 				96B0CA96200455DB00E03473 /* AppDelegate.swift in Sources */,
 				96B0CAA820045AF000E03473 /* Constants.swift in Sources */,
