@@ -22,6 +22,8 @@
 		96B0CAA62004569000E03473 /* SafeLayoutBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0CAA52004569000E03473 /* SafeLayoutBar.swift */; };
 		96B0CAA820045AF000E03473 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0CAA720045AF000E03473 /* Constants.swift */; };
 		96CE4CE32006FE1D0080C798 /* SafeAutoLayoutBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE4CE22006FE1D0080C798 /* SafeAutoLayoutBar.swift */; };
+		96FAEDD42018565A00093386 /* SafeAreaGuideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FAEDD32018565A00093386 /* SafeAreaGuideBar.swift */; };
+		96FAEDD820185A2B00093386 /* iOS9.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96FAEDD720185A2B00093386 /* iOS9.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		96B0CAA52004569000E03473 /* SafeLayoutBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeLayoutBar.swift; sourceTree = "<group>"; };
 		96B0CAA720045AF000E03473 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		96CE4CE22006FE1D0080C798 /* SafeAutoLayoutBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAutoLayoutBar.swift; sourceTree = "<group>"; };
+		96FAEDD32018565A00093386 /* SafeAreaGuideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaGuideBar.swift; sourceTree = "<group>"; };
+		96FAEDD720185A2B00093386 /* iOS9.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iOS9.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				96B0CAA52004569000E03473 /* SafeLayoutBar.swift */,
 				96B0CAA720045AF000E03473 /* Constants.swift */,
 				96CE4CE22006FE1D0080C798 /* SafeAutoLayoutBar.swift */,
+				96FAEDD32018565A00093386 /* SafeAreaGuideBar.swift */,
+				96FAEDD720185A2B00093386 /* iOS9.storyboard */,
 			);
 			path = SafeLayoutBar;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 			files = (
 				96B0CAA0200455DB00E03473 /* LaunchScreen.storyboard in Resources */,
 				96B0CA9D200455DB00E03473 /* Assets.xcassets in Resources */,
+				96FAEDD820185A2B00093386 /* iOS9.storyboard in Resources */,
 				96B0CA9B200455DB00E03473 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +237,7 @@
 			files = (
 				96B0CAA62004569000E03473 /* SafeLayoutBar.swift in Sources */,
 				96CE4CE32006FE1D0080C798 /* SafeAutoLayoutBar.swift in Sources */,
+				96FAEDD42018565A00093386 /* SafeAreaGuideBar.swift in Sources */,
 				96B0CA98200455DB00E03473 /* ViewController.swift in Sources */,
 				96B0CA96200455DB00E03473 /* AppDelegate.swift in Sources */,
 				96B0CAA820045AF000E03473 /* Constants.swift in Sources */,

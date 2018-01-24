@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3hE-ZD-Xpw">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="DW3-fc-gEN">
+            <objects>
+                <viewController id="3hE-ZD-Xpw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jME-SM-rgq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BSX-n2-39l">
+                                <rect key="frame" x="0.0" y="734" width="375" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMx-gM-Ob8">
+                                        <rect key="frame" x="16" y="7" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="5A5-Dd-hVr"/>
+                                    <constraint firstItem="tMx-gM-Ob8" firstAttribute="centerY" secondItem="BSX-n2-39l" secondAttribute="centerY" id="dwj-uh-kFF"/>
+                                    <constraint firstItem="tMx-gM-Ob8" firstAttribute="leading" secondItem="BSX-n2-39l" secondAttribute="leading" constant="16" id="ubO-UZ-gJW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="atW-XW-TPS" firstAttribute="bottom" secondItem="BSX-n2-39l" secondAttribute="bottom" id="ZvE-kp-Xrw"/>
+                            <constraint firstItem="atW-XW-TPS" firstAttribute="trailing" secondItem="BSX-n2-39l" secondAttribute="trailing" id="iwI-0b-hRd"/>
+                            <constraint firstItem="BSX-n2-39l" firstAttribute="leading" secondItem="atW-XW-TPS" secondAttribute="leading" id="mLo-rt-0hr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="atW-XW-TPS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aU6-p0-3L1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46" y="179"/>
+        </scene>
+    </scenes>
+</document>
