@@ -8,21 +8,13 @@
 
 import UIKit
 
-class SafeAutoLayoutBar: UIView {
-    override var backgroundColor: UIColor? {
+open class SafeAutoLayoutBar: UIView {
+    open override var backgroundColor: UIColor? {
         get {
             return _bgView.backgroundColor
         }
         set {
             _bgView.backgroundColor = newValue
-        }
-    }
-    override var alpha: CGFloat {
-        get {
-            return _bgView.alpha
-        }
-        set {
-            _bgView.alpha = newValue
         }
     }
 
@@ -41,17 +33,12 @@ class SafeAutoLayoutBar: UIView {
         _prepareBgView()
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         _prepareBgView()
     }
 
-    override func didAddSubview(_ subview: UIView) {
-        super.didAddSubview(subview)
-        sendSubview(toBack: _bgView)
-    }
-
-    override func updateConstraints() {
+    open override func updateConstraints() {
         if #available(iOS 11.0, *) {
             _scanLayoutGuideAttribute()
             if isiPhoneX() {
@@ -71,6 +58,7 @@ extension SafeAutoLayoutBar {
     private func _prepareBgView() {
         clipsToBounds = false
         addSubview(_bgView)
+        sendSubview(toBack: _bgView)
         _bgView.translatesAutoresizingMaskIntoConstraints = false
         if #available(iOS 9.0, *) {
             let leading = _bgView.leadingAnchor.constraint(equalTo: leadingAnchor)
@@ -93,6 +81,7 @@ extension SafeAutoLayoutBar {
 }
 
 extension SafeAutoLayoutBar {
+
     @available(iOS 11.0, *)
     private func _scanLayoutGuideAttribute() {
         print("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^")
